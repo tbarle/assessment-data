@@ -21,9 +21,7 @@ Lavori per la **Megaditta (ItalPetrolCemenTermoTessilFarmoMetalChimica)**, una p
 │   └── research_faq.txt          # FAQ metodologie di ricerca
 ├── expected_output/               # Metti qui i tuoi output
 ├── instructions/
-│   └── ASSIGNMENT.md             # Istruzioni dettagliate
-└── evaluation/
-    └── RUBRIC.md                 # Criteri di valutazione
+│   └── ASSIGNMENT.md             # Istruzioni
 ```
 
 ## Come procedere

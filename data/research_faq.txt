@@ -1,0 +1,152 @@
+=== MegaDitta - FREQUENTLY ASKED QUESTIONS ===
+Ultimo aggiornamento: Marzo 1975
+
+--- METODOLOGIE DI RICERCA ---
+
+Q: Cosa significa CAWI?
+A: CAWI sta per Computer Assisted Web Interviewing. È un metodo di raccolta dati tramite questionari online auto-compilati. I panelisti ricevono un link via email e completano il sondaggio sul proprio dispositivo. Vantaggi: costi ridotti, tempi rapidi, possibilità di includere contenuti multimediali. Tempi medi di completamento: 15-20 minuti per sondaggi standard.
+
+Q: Cos'è la metodologia CATI?
+A: CATI significa Computer Assisted Telephone Interviewing. Gli intervistatori conducono interviste telefoniche utilizzando un software che presenta le domande e registra le risposte in tempo reale. Utilizzata quando serve un campione rappresentativo della popolazione generale o per target difficili da raggiungere online. Costo medio: â‚¬25-40 per intervista completata.
+
+Q: Che differenza c'è tra ricerca qualitativa e quantitativa?
+A: La ricerca quantitativa raccoglie dati numerici da campioni ampi (es. sondaggi CAWI con 1000+ rispondenti) per analisi statistiche e generalizzazioni. La ricerca qualitativa esplora motivazioni profonde con campioni piccoli (es. 6-8 focus group, 15-20 interviste in profondità) per comprendere il "perché" dei comportamenti. Spesso si usano entrambe in approcci Mixed Methods.
+
+--- PANEL E CAMPIONAMENTO ---
+
+Q: Come viene selezionato il campione?
+A: Dipende dagli obiettivi. Per ricerche rappresentative usiamo campionamento probabilistico stratificato per quote (età, genere, area geografica, etc.). Per target specifici (es. possessori di auto elettriche) usiamo campionamento non probabilistico mirato. Sample size minimo consigliato: 400 per ricerche nazionali, 800-1000 per analisi per sottogruppi.
+
+Q: Cos'è un panelista?
+A: Un panelista è una persona registrata nel nostro database che ha acconsentito a partecipare periodicamente a ricerche di mercato. I panelisti vengono selezionati in base al profilo demografico e comportamentale. Ricevono incentivi per il tempo dedicato (voucher, punti fedeltà, bonifici). Il nostro panel include oltre 150.000 profili attivi in Europa.
+
+Q: Quanto vengono pagati i panelisti?
+A: Gli incentivi variano in base a lunghezza e complessità: â‚¬2-5 per sondaggi brevi (5-10 min), â‚¬5-15 per sondaggi standard (15-25 min), â‚¬20-50 per focus group online, â‚¬50-100 per interviste in profondità. I pagamenti vengono processati entro 15 giorni lavorativi dal completamento.
+
+--- QUALITÀ DEI DATI ---
+
+Q: Come garantite la qualità delle risposte?
+A: Implementiamo diversi controlli: domande di attenzione (attention check), verifica della coerenza delle risposte, controllo dei tempi di completamento (troppo veloci = sospetti), analisi di pattern ripetitivi, rimozione di speeders e straight-liners. Il tasso di scarto medio è del 5-8% per garantire dati affidabili.
+
+Q: Cosa fate contro i professional respondents?
+A: Limitiamo la frequenza di partecipazione (max 4-5 sondaggi/mese per panelista), monitoriamo la qualità delle risposte nel tempo, ruotiamo i panel per progetti simili. Per ricerche critiche usiamo fresh sample (panelisti mai esposti a topic simili negli ultimi 6 mesi).
+
+--- PRIVACY E GDPR ---
+
+Q: Come gestite i dati personali?
+A: Siamo pienamente GDPR compliant. I dati personali (nome, email, telefono) sono conservati separati dalle risposte ai sondaggi. Le risposte vengono anonimizzate prima delle analisi. I clienti ricevono solo dati aggregati o anonimizzati. Conserviamo i consensi privacy per 10 anni. I panelisti possono richiedere cancellazione dati in qualsiasi momento (right to be forgotten).
+
+Q: I clienti vedono i nomi dei panelisti?
+A: No, mai. I clienti ricevono dataset con ID numerici anonimi. Solo per ricerche qualitative (focus group, interviste) dove l'interazione è necessaria, usiamo solo nomi di battesimo. I dati di contatto restano confidenziali e proprietà di Megaditta.
+
+--- TEMPISTICHE E PROCESSI ---
+
+Q: Quanto tempo richiede un progetto CAWI standard?
+A: Setup e programmazione questionario: 3-5 giorni. Fieldwork (raccolta dati): 7-14 giorni per sample 1000-1500. Data processing e pulizia: 2-3 giorni. Report e analisi: 5-7 giorni. Totale: 3-4 settimane per progetti standard. Per progetti urgenti offriamo Fast Track con delivery in 10-12 giorni (supplemento +30%).
+
+Q: Posso vedere il questionario prima del lancio?
+A: Sì, inviamo sempre un link di test al cliente per approvazione. Consigliamo di testare su diversi dispositivi (desktop, mobile, tablet). Eventuali modifiche vanno richieste prima dell'inizio del fieldwork. Modifiche durante il fieldwork comportano perdita di dati già raccolti.
+
+--- COSTI E BUDGET ---
+
+Q: Come si calcolano i costi di un progetto?
+A: Principali voci di costo: incentivi panelisti (â‚¬3-8 per completo a seconda della lunghezza), programmazione questionario (â‚¬500-2000 in base a complessità), project management (10-15% del totale), data processing e report (â‚¬800-3000). Per una CAWI standard 1000 completi, budget indicativo: â‚¬12.000-18.000. Preventivi dettagliati forniti entro 48 ore dalla richiesta.
+
+Q: Offrite sconti per clienti ricorrenti?
+A: Sì, abbiamo diversi tier: Bronze (1-2 progetti/anno) sconto 5%, Silver (3-5 progetti/anno) sconto 10%, Gold (6+ progetti/anno) sconto 15%, Platinum (partnership annuale) sconto 20% + condizioni dedicate. Gli sconti si applicano dal secondo progetto confermato.
+
+--- FOCUS GROUP E QUALITATIVA ---
+
+Q: Come si organizza un focus group?
+A: Fase di reclutamento: screening di 40-50 candidati per selezionare 8-10 partecipanti con profilo target. Pre-incentivo (â‚¬20-30) per confermare presenza. Sessione: 90-120 minuti con moderatore esperto, traccia di discussione semi-strutturata. Location: sala dedicata con specchio unidirezionale oppure online via Zoom. Recording video + trascrizione. Il cliente può osservare in back-room o in streaming. Deliverable: video, trascrizione, report insight.
+
+Q: Meglio focus group in presenza o online?
+A: Dipende dagli obiettivi. In presenza: migliore dinamica di gruppo, lettura del linguaggio corporeo, possibilità di mostrare prototipi fisici. Online: costi ridotti (no location), partecipanti da tutta Italia, più facile reclutare busy professionals. Hybrid approach: alcuni focus in presenza per topic delicati, altri online per efficienza. Dal 2020 circa il 60% dei nostri focus group sono online.
+
+--- SETTORI E APPLICAZIONI ---
+
+Q: In quali settori operate?
+A: Operiamo in tutti i settori: FMCG (food & beverage, cura casa/persona), Technology & Electronics, Automotive, Fashion & Luxury, Healthcare & Pharma, Financial Services, Tourism & Travel, Media & Entertainment, Retail, Telco. Abbiamo vertical expertise con ricercatori specializzati per settore.
+
+Q: Posso fare ricerche B2B?
+A: Sì, abbiamo panel B2B con decision makers aziendali (CEO, CFO, Responsabili Acquisti, IT Manager, HR Director). Sample size tipici: 100-300 per ricerche B2B nazionali. Metodologia prevalente: CATI o interviste in profondità. Costi più alti rispetto a B2C per difficoltà di reclutamento (â‚¬40-80 per intervista completata).
+
+--- ANALISI E REPORTISTICA ---
+
+Q: Che tipo di analisi fornite?
+A: Standard: frequenze, medie, cross-tab per variabili socio-demo. Advanced: analisi di segmentazione (cluster analysis), conjoint analysis per pricing, MaxDiff per priorità features, driver analysis (regressione) per KPI. Deliverable: report PowerPoint executive con key findings, dataset Excel/SPSS, dashboard interattivi Tableau (su richiesta).
+
+Q: Posso avere i dati grezzi?
+A: Sì, forniamo sempre dataset pulito in Excel o SPSS con: risposte anonimizzate, variabili socio-demografiche, metadati (data completamento, device, durata). Il cliente può fare analisi custom internamente. Consigliamo comunque nostro report per interpretazione corretta dei risultati e implicazioni strategiche.
+
+--- SUPPORTO E ASSISTENZA ---
+
+Q: Ho problemi tecnici con il sondaggio, chi contatto?
+A: Per supporto tecnico: support@megaditta.com oppure chat sul sito (Lun-Ven 9-18). Tempo di risposta medio: 2 ore. Per urgenze: +39 02 1234567 (attivo h24 durante fieldwork attivo). Il tuo Project Manager rimane il riferimento principale per qualsiasi questione.
+
+Q: Posso modificare il questionario a fieldwork iniziato?
+A: Modifiche minori (typo, riformulazione domanda aperta) sono possibili entro le prime 50 interviste completate senza impatto. Modifiche sostanziali (aggiunta/rimozione domande, cambio logiche) richiedono restart del fieldwork con perdita dei dati già raccolti. Consigliamo sempre soft launch con 50-100 completi per verificare tutto prima del full launch.
+
+--- INTERNAZIONALE ---
+
+Q: Operate all'estero?
+A: Sì, abbiamo partnership con panel provider in 40+ paesi. Gestiamo progetti multi-country con coordinamento centralizzato. Lingue disponibili: tutte le principali europee + asiatiche. Per progetti globali consigliamo di adattare il questionario alle specificità culturali locali, non solo traduzione letterale.
+
+Q: Come gestite le differenze culturali?
+A: Ogni mercato ha un Local Project Manager che revisiona questionario e materiali per appropriatezza culturale. Esempi: scale di risposta (in alcuni paesi si evita punto medio), sensibilità su topic (reddito, religione, politica), esempi e brand citati (adattati al mercato locale). Per comparabilità cross-country usiamo back-translation e cognitive testing.
+
+=== CASI D'USO TIPICI ===
+
+Caso 1: Brand Tracking
+Metodologia: CAWI trimestrale, n=1000/wave
+KPI tracciati: awareness (spontanea/aiutata), consideration, preference, Net Promoter Score
+Benchmark vs competitor
+Durata: programma continuativo 12+ mesi
+
+Caso 2: Concept Test nuovo prodotto  
+Metodologia: Mixed (CAWI n=300 + 4 focus group)
+Test: descrizione concept, visual, prezzo, purchase intent
+Identificazione positioning ottimale
+Tempistiche: 4 settimane
+
+Caso 3: Customer Satisfaction
+Metodologia: CAWI post-acquisto (triggered survey)
+Touchpoint analizzati: pre-vendita, acquisto, consegna, post-vendita
+Output: CSI score + driver analysis + verbatim analisi
+Frequenza: mensile
+
+Caso 4: Segmentation Study
+Metodologia: CAWI n=2000 + cluster analysis
+Variabili: demographics, psychographics, comportamenti, needs
+Output: 4-6 segmenti con profiling dettagliato + personas
+Applicazione: targeting, messaging, product development
+
+=== BEST PRACTICES ===
+
+- Questionari brevi: max 20 minuti per CAWI, 15 min per mobile
+- Evitare griglie estese (max 7-8 item per griglia)
+- Mobile-first design: 70% completi da smartphone
+- Usare progress bar per ridurre drop-out
+- Testare sempre questionario prima del lancio (n=20-30)
+- Incentivo adeguato migliora response rate del 25-40%
+- Per NPS usare sempre scala 0-10, non 1-5
+- Randomizzare ordine opzioni di risposta per evitare bias
+- Includere sempre opzione "Preferisco non rispondere" per domande sensibili
+
+=== GLOSSARIO TECNICO ===
+
+Response Rate: % di invitati che completano il sondaggio (target: 15-25% per CAWI)
+Incidence Rate (IR): % di panelisti che qualificano dopo screening (impatta costi)
+Length of Interview (LOI): durata media completamento questionario
+Speeders: rispondenti che completano troppo velocemente (< 40% tempo mediano)
+Straight-liners: chi risponde sempre con stessa opzione in griglie
+Soft launch: test su piccolo sample prima di full launch
+Weighting: ponderazione dati per correggere sbilanciamenti campionari
+Quota sampling: definizione numerosità target per sottogruppi
+Fieldwork: fase di raccolta dati attiva
+Data cleaning: processo di validazione e pulizia dataset
+
+Per ulteriori informazioni contattare il vostro Account Manager o scrivere a info@megaditta.com
+
+Uffici MegaDitta: Milano (HQ), Roma, Caltagirone, Berlino, Campobasso, New York
+Tel: +39 02 1234567 | Email: info@megaditta.com | Web: www.italpetrolcementermotessilfarmometalchimica.com
