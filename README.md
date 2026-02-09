@@ -1,4 +1,4 @@
-# AI Engineer Technical Assessment
+# AI Engineer Assessment
 
 Benvenuto! Questo assessment è progettato per valutare le tue competenze in:
 - Normalizzazione e design di database
@@ -30,11 +30,10 @@ Lavori per la **Megaditta (ItalPetrolCemenTermoTessilFarmoMetalChimica)**, una p
 2. Analizza i dati in `data/`
 3. Completa i task richiesti
 4. Salva i tuoi output in `expected_output/`
-5. Preparati per una breve presentazione (10-15 min) delle tue scelte
+5. Preparati per una breve presentazione delle tue scelte
 
 ## Regole
 
-- **Tempo stimato**: 2-3 ore (non è un limite rigido)
 - **Linguaggio**: Libera scelta
 - **Librerie**: Libera scelta
 - **Embeddings**: Scegli il modello che preferisci (OpenAI, open-source, etc.)

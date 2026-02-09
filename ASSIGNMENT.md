@@ -1,4 +1,4 @@
-# Assignment Dettagliato
+# Assignment
 
 ## Obiettivo
 
@@ -63,7 +63,6 @@ Prepara i dati per retrieval semantico:
 
 - Implementa un semplice retrieval test
 - Aggiungi monitoring/logging alla pipeline
-- Containerizza con Docker
 - Aggiungi unit tests
 
 ## Note Importanti
