@@ -63,7 +63,7 @@ Implementa una pipeline di estrazione, trasformazione e caricamento che:
 
 **Deliverable**:
 - Script (es. `etl_pipeline.py`)
-- Dati puliti in formato strutturato (CSV, JSON, Parquet, o database SQLite)
+- Dati puliti in formato strutturato (CSV, JSON, Parquet, SQLite, ...)
 - File `data_quality_report.md` con statistiche e issue trovati
 
 ---
