@@ -4,6 +4,16 @@
 
 Creare una Knowledge Base ottimizzata per un agente AI che supporta il team della Megaditta nel rispondere a domande su progetti, panelisti e metodologie di ricerca.
 
+## Tempo Stimato
+
+**~6 ore** per completare tutti i task. Puoi scegliere di:
+- Completare tutti e 3 i task (ideale)
+- Fare Task 1 e 2 completi + Task 3 solo strategia documentata (accettabile)
+
+## Risorse Fornite
+
+**API Key OpenAI**: Ti verrà fornita una API key dedicata per generare embeddings nel Task 3. Usala responsabilmente.
+
 ## Riepilogo Deliverable
 
 | Task | Deliverable | Formato |
@@ -72,10 +82,12 @@ Implementa una pipeline di estrazione, trasformazione e caricamento che:
 
 Prepara i dati per retrieval semantico:
 
-1. Genera embeddings per i contenuti testuali
-2. Scegli strategia di chunking appropriata
-3. Crea metadata utili per filtering/routing
+1. Genera embeddings per i contenuti testuali (usa API key OpenAI fornita o modelli open-source come sentence-transformers)
+2. Scegli strategia di chunking appropriata per preservare contesto semantico
+3. Crea metadata utili per filtering/routing delle query
 4. Prepara output in formato ottimale per vector database
+
+**Nota importante**: Se preferisci, puoi documentare solo la strategia (chunking approach, metadata design, scelta modello) senza generare gli embeddings effettivi - sarà discusso nel colloquio tecnico.
 
 **Criteri di accettazione**:
 - Strategia di chunking motivata e appropriata per i diversi tipi di contenuto

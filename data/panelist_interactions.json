@@ -2,7 +2,7 @@
   {
     "interaction_id": "INT-20240115-001",
     "panelist_id": 10847,
-    "panelist_email": "m.fantozzi1952@email.it",
+    "panelist_email": "giuseppe.bianchi1965@email.it",
     "panelist_phone": "+39 02 1234567",
     "interaction_date": "2024-01-15T09:23:45",
     "channel": "Email",
@@ -19,7 +19,7 @@
   {
     "interaction_id": "INT-20240118-002",
     "panelist_id": "10923",
-    "panelist_email": "silvana.filini@example.com",
+    "panelist_email": "alessandra.romano@example.com",
     "panelist_phone": "",
     "interaction_date": "18/01/2024 14:30:00",
     "channel": "Chat",
@@ -36,7 +36,7 @@
   {
     "interaction_id": "INT-20240120-003",
     "panelist_id": 10847,
-    "panelist_email": "m.fantozzi1952@email.it",
+    "panelist_email": "giuseppe.bianchi1965@email.it",
     "panelist_phone": "+39-02-1234567",
     "interaction_date": "2024-01-20T16:45:12",
     "channel": "Phone",
@@ -53,7 +53,7 @@
   {
     "interaction_id": "INT-20240125-004",
     "panelist_id": 11204,
-    "panelist_email": "renzo.coboldi@email.com",
+    "panelist_email": "roberto.verdi@email.com",
     "panelist_phone": null,
     "interaction_date": "2024-01-25T10:15:33",
     "channel": "email",
@@ -70,7 +70,7 @@
   {
     "interaction_id": "INT-20240128-005",
     "panelist_id": "11456",
-    "panelist_email": "anna.mazzafera@webmail.it",
+    "panelist_email": "francesca.costa@webmail.it",
     "panelist_phone": "N/A",
     "interaction_date": "Jan 28, 2024 11:20 AM",
     "channel": "Chat",
@@ -104,7 +104,7 @@
   {
     "interaction_id": "INT-20240205-007",
     "panelist_id": 10923,
-    "panelist_email": "silvana.filini@example.com",
+    "panelist_email": "alessandra.romano@example.com",
     "panelist_phone": "+44 20 7946 0958",
     "interaction_date": "2024-02-05T09:30:22",
     "channel": "Email",
@@ -121,7 +121,7 @@
   {
     "interaction_id": "INT-20240208-008",
     "panelist_id": "11789",
-    "panelist_email": "luciana.calboni@mail.com",
+    "panelist_email": "elena.gatti@mail.com",
     "panelist_phone": "",
     "interaction_date": "08-02-2024 13:45:00",
     "channel": "chat",
@@ -138,7 +138,7 @@
   {
     "interaction_id": "INT-20240212-009",
     "panelist_id": 12003,
-    "panelist_email": "geometra.calboni@professionisti.it",
+    "panelist_email": "arch.marino@professionisti.it",
     "panelist_phone": "+39 06 5551234",
     "interaction_date": "2024-02-12T10:00:00Z",
     "channel": "Phone",
@@ -155,7 +155,7 @@
   {
     "interaction_id": "INT-20240215-010",
     "panelist_id": 10847,
-    "panelist_email": "m.fantozzi1952@email.it",
+    "panelist_email": "giuseppe.bianchi1965@email.it",
     "panelist_phone": "+39 02 1234567",
     "interaction_date": "2024-02-15T14:20:11",
     "channel": "Email",
@@ -172,7 +172,7 @@
   {
     "interaction_id": "INT-20240220-011",
     "panelist_id": "12156",
-    "panelist_email": "mariangela.fantozzi@company.com",
+    "panelist_email": "chiara.bruno@company.com",
     "panelist_phone": "0",
     "interaction_date": "20/02/2024 16:30",
     "channel": "Chat",
@@ -189,7 +189,7 @@
   {
     "interaction_id": "INT-20240225-012",
     "panelist_id": 11204,
-    "panelist_email": "renzo.coboldi@email.com",
+    "panelist_email": "roberto.verdi@email.com",
     "panelist_phone": "+49 30 12345678",
     "interaction_date": "2024-02-25T11:15:00",
     "channel": "phone",
@@ -223,7 +223,7 @@
   {
     "interaction_id": "INT-20240303-014",
     "panelist_id": "11456",
-    "panelist_email": "anna.mazzafera@webmail.it",
+    "panelist_email": "francesca.costa@webmail.it",
     "panelist_phone": "+39 348 1122334",
     "interaction_date": "2024-03-03T13:45:30",
     "channel": "Chat",
@@ -257,7 +257,7 @@
   {
     "interaction_id": "INT-20240312-016",
     "panelist_id": 10923,
-    "panelist_email": "silvana.filini@example.com",
+    "panelist_email": "alessandra.romano@example.com",
     "panelist_phone": "+44 20 7946 0958",
     "interaction_date": "2024-03-12T15:30:00+00:00",
     "channel": "Phone",
@@ -274,7 +274,7 @@
   {
     "interaction_id": "INT-20240315-017",
     "panelist_id": "11789",
-    "panelist_email": "luciana.calboni@mail.com",
+    "panelist_email": "elena.gatti@mail.com",
     "panelist_phone": null,
     "interaction_date": "March 15, 2024 11:00 AM",
     "channel": "chat",
@@ -291,7 +291,7 @@
   {
     "interaction_id": "INT-20240320-018",
     "panelist_id": 12003,
-    "panelist_email": "geometra.calboni@professionisti.it",
+    "panelist_email": "arch.marino@professionisti.it",
     "panelist_phone": "+39 06 5551234",
     "interaction_date": "2024-03-20T09:15:44",
     "channel": "Email",
@@ -342,7 +342,7 @@
   {
     "interaction_id": "INT-20250815-021",
     "panelist_id": 11204,
-    "panelist_email": "r.coboldi.DIFFERENT@email.com",
+    "panelist_email": "roberto.verdi.alt@email.com",
     "panelist_phone": "+49 30 12345678",
     "interaction_date": "2025-08-15T10:30:00",
     "channel": "Email",
@@ -359,7 +359,7 @@
   {
     "interaction_id": "INT-20240401-022",
     "panelist_id": "10847",
-    "panelist_email": "mario.fantozzi.ALTRO@gmail.com",
+    "panelist_email": "mario.bianchi.nuovo@gmail.com",
     "panelist_phone": "+39 02 9999999",
     "interaction_date": "April 1, 2024",
     "channel": "PHONE",
@@ -427,7 +427,7 @@
   {
     "interaction_id": "INT-20240412-026",
     "panelist_id": 11589,
-    "panelist_email": "pina.fantozzi.1975@gmail.com",
+    "panelist_email": "laura.ricci.1978@gmail.com",
     "panelist_phone": "+39 348 9876543",
     "interaction_date": "April 12, 2024 16:00",
     "channel": "Phone",
@@ -512,7 +512,7 @@
   {
     "interaction_id": "INT-20240425-031",
     "panelist_id": 12003,
-    "panelist_email": "geometra.calboni@professionisti.it",
+    "panelist_email": "arch.marino@professionisti.it",
     "panelist_phone": "+39 06 5551234",
     "interaction_date": "2024-04-25T15:00:00Z",
     "channel": "Phone",
@@ -580,7 +580,7 @@
   {
     "interaction_id": "INT-20240508-035",
     "panelist_id": 10923,
-    "panelist_email": "silvana.filini@example.com",
+    "panelist_email": "alessandra.romano@example.com",
     "panelist_phone": "+44 20 7946 0958",
     "interaction_date": "2024-05-08T11:30:15",
     "channel": "Phone",

@@ -40,6 +40,12 @@ I dati contengono un campo `workspace_id` che identifica a quale azienda apparti
 
 > **Nota**: I dati contengono inconsistenze intenzionali (formati misti, duplicati, valori mancanti, errori di tipo). Parte dell'assessment è identificarle e gestirle.
 
+## Prima di Iniziare
+
+**API Key OpenAI**: Riceverai una API key dedicata via email per generare embeddings nel Task 3. Usala responsabilmente.
+
+**Tempo Stimato**: circa 6 ore per completare tutti i task. Puoi scegliere di documentare solo la strategia per il Task 3 se preferisci.
+
 ## Quick Start
 
 1. **Fai un fork** di questa repo
@@ -61,9 +67,9 @@ I dati contengono un campo `workspace_id` che identifica a quale azienda apparti
 
 - **Linguaggio**: Libera scelta (Python consigliato ma non obbligatorio)
 - **Librerie**: Libera scelta
-- **Embeddings**: Scegli il modello che preferisci (OpenAI, open-source, etc.)
+- **Embeddings**: Usa API key OpenAI fornita o modelli open-source (sentence-transformers)
 - **Documentazione**: Spiega le tue scelte tecniche nei file `.md` richiesti
-- **Tempo**: Non c'è un limite rigido, ma l'esercizio è pensato per ~4 ore di lavoro
+- **Tempo**: circa 6 ore stimate - puoi completare tutti i task o fare Task 1+2 completi e Task 3 solo strategia
 
 ## Consegna
 
