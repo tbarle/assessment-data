@@ -1,0 +1,122 @@
+Table workspaces {
+  workspace_id varchar(50) [pk]
+  workspace_name varchar(255)
+  created_at timestamp
+}
+
+Table clients {
+  client_id bigint [pk, increment]
+  workspace_id varchar(50)
+  client_name varchar(255)
+}
+
+Table methodologies {
+  methodology_id bigint [pk, increment]
+  methodology_code varchar(20) [unique]
+  methodology_name varchar(255)
+  description text
+}
+
+Table projects {
+  project_id varchar(50) [pk]
+
+  workspace_id varchar(50)
+  client_id bigint
+  methodology_id bigint
+
+  project_name varchar(255)
+  research_topic varchar(255)
+
+  start_date date
+  end_date date
+
+  sample_size integer
+  budget decimal(12,2)
+
+  country_code char(2)
+
+  status varchar(30)
+
+  notes text
+}
+
+Table panelists {
+  panelist_id bigint [pk]
+
+  workspace_id varchar(50)
+
+  email varchar(320)
+  phone varchar(50)
+}
+
+Table agents {
+  agent_id bigint [pk, increment]
+
+  workspace_id varchar(50)
+
+  agent_name varchar(255)
+}
+
+Table issue_types {
+  issue_type_id bigint [pk, increment]
+  issue_name varchar(100) [unique]
+}
+
+Table interactions {
+  interaction_id varchar(100) [pk]
+
+  workspace_id varchar(50)
+
+  panelist_id bigint
+  project_id varchar(50)
+
+  agent_id bigint
+  issue_type_id bigint
+
+  interaction_date timestamp
+
+  channel varchar(50)
+
+  issue_description text
+  resolution text
+
+  resolved boolean
+
+  resolution_time_hours decimal(6,2)
+
+  satisfaction_score smallint
+}
+
+Table faq_categories {
+  category_id bigint [pk, increment]
+  category_name varchar(100) [unique]
+}
+
+Table faq {
+  id bigint [pk, increment]
+
+  category_id bigint
+
+  question text
+  answer text
+
+  created_at timestamp
+}
+
+Ref: clients.workspace_id > workspaces.workspace_id
+
+Ref: projects.workspace_id > workspaces.workspace_id
+Ref: projects.client_id > clients.client_id
+Ref: projects.methodology_id > methodologies.methodology_id
+
+Ref: panelists.workspace_id > workspaces.workspace_id
+
+Ref: agents.workspace_id > workspaces.workspace_id
+
+Ref: interactions.workspace_id > workspaces.workspace_id
+Ref: interactions.panelist_id > panelists.panelist_id
+Ref: interactions.project_id > projects.project_id
+Ref: interactions.agent_id > agents.agent_id
+Ref: interactions.issue_type_id > issue_types.issue_type_id
+
+Ref: faq.category_id > faq_categories.category_id
