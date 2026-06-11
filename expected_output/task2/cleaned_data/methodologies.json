@@ -1,0 +1,37 @@
+[
+  {
+    "methodology_id": 1,
+    "methodology_code": "CAWI",
+    "methodology_name": "CAWI"
+  },
+  {
+    "methodology_id": 2,
+    "methodology_code": "CATI",
+    "methodology_name": "CATI"
+  },
+  {
+    "methodology_id": 3,
+    "methodology_code": "MIXED_METHODS",
+    "methodology_name": "Mixed Methods"
+  },
+  {
+    "methodology_id": 4,
+    "methodology_code": "ONLINE_PANEL",
+    "methodology_name": "Online Panel"
+  },
+  {
+    "methodology_id": 5,
+    "methodology_code": "FOCUS_GROUP",
+    "methodology_name": "Focus Group"
+  },
+  {
+    "methodology_id": 6,
+    "methodology_code": "ONLINE_COMMUNITY",
+    "methodology_name": "Online Community"
+  },
+  {
+    "methodology_id": 7,
+    "methodology_code": "FACE_TO_FACE",
+    "methodology_name": "Face to Face"
+  }
+]

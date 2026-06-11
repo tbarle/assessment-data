@@ -1,0 +1,46 @@
+[
+  {
+    "category_id": 1,
+    "category_name": "Metodologie Di Ricerca"
+  },
+  {
+    "category_id": 2,
+    "category_name": "Panel E Campionamento"
+  },
+  {
+    "category_id": 3,
+    "category_name": "Qualità Dei Dati"
+  },
+  {
+    "category_id": 4,
+    "category_name": "Privacy E Gdpr"
+  },
+  {
+    "category_id": 5,
+    "category_name": "Tempistiche E Processi"
+  },
+  {
+    "category_id": 6,
+    "category_name": "Costi E Budget"
+  },
+  {
+    "category_id": 7,
+    "category_name": "Focus Group E Qualitativa"
+  },
+  {
+    "category_id": 8,
+    "category_name": "Settori E Applicazioni"
+  },
+  {
+    "category_id": 9,
+    "category_name": "Analisi E Reportistica"
+  },
+  {
+    "category_id": 10,
+    "category_name": "Supporto E Assistenza"
+  },
+  {
+    "category_id": 11,
+    "category_name": "Internazionale"
+  }
+]
