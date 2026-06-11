@@ -75,10 +75,31 @@ Motivazioni:
 * Miglioramento della coerenza dei dati
 * Facilità di aggiornamento delle informazioni
 
-Relazione:
+Relazioni:
 
 ```text
 Panelist 1 → N Interactions
+Panelist 1 → N PanalistEmails
+```
+
+---
+
+## Panelist Emails
+
+Tabella separata per gestire la relazione 1:N tra panelista e indirizzi email. La necessità è emersa durante l'analisi dei dati sorgente, dove lo stesso `panelist_id` compariva con email distinte in record diversi.
+
+Mantenere le email in una tabella dedicata permette di:
+
+* Preservare tutti gli indirizzi noti senza perdita di informazione
+* Identificare l'indirizzo canonico tramite il flag `is_primary`
+* Garantire l'integrità referenziale verso `panelists`
+
+L'email è memorizzata come hash pseudonimizzato (`email_hash`) in conformità ai requisiti GDPR. Il flag `is_primary = true` identifica il primo indirizzo in ordine lessicografico, scelto come riferimento deterministico e riproducibile.
+
+Relazione:
+
+```text
+Panelist 1 → N PanalistEmails
 ```
 
 ---
@@ -132,6 +153,10 @@ Contiene inoltre:
 
 Questa tabella costituisce il principale storico operativo interrogato dall'agente AI.
 
+**Assunzione: range di `satisfaction_score`**
+
+Il campo `satisfaction_score` accetta valori interi compresi tra 1 e 5 (vincolo `CHECK` in schema). Questo range non è esplicitamente specificato nell'assignment ma è stato inferito dall'osservazione dei dati sorgente, dove tutti i valori validi rientrano in questo intervallo e l'unico outlier (8) è chiaramente anomalo rispetto alla scala standard Likert. In fase ETL i valori fuori range vengono clamped al limite più vicino (es. 8 → 5).
+
 ---
 
 ## Knowledge Base
@@ -179,13 +204,9 @@ Tutti gli attributi non chiave dipendono interamente dalla chiave primaria.
 
 Esempio:
 
-Email e telefono del panelista dipendono dal panelista e non dall'interazione.
+Il telefono del panelista dipende dal panelista e non dall'interazione, per cui è stato estratto in `panelists`.
 
-Per questo motivo sono stati estratti nella tabella:
-
-```text
-panelists
-```
+Le email sono state ulteriormente normalizzate in una tabella separata `panelist_emails` (relazione 1:N), in quanto uno stesso panelista può avere più indirizzi email distinti. Ogni riga riporta l'hash dell'email e il flag `is_primary` che indica l'indirizzo canonico.
 
 ---
 

@@ -45,8 +45,15 @@ Table panelists {
 
   workspace_id varchar(50)
 
-  email varchar(320)
   phone varchar(50)
+}
+
+Table panelist_emails {
+  id bigint [pk, increment]
+
+  panelist_id bigint
+  email_hash varchar(70)
+  is_primary boolean
 }
 
 Table agents {
@@ -84,7 +91,7 @@ Table interactions {
 
   resolution_time_hours decimal(6,2)
 
-  satisfaction_score smallint
+  satisfaction_score smallint [note: 'Range assunto: 1–5 (inferito dai dati; nessuna specifica formale). Valori fuori range vengono clamped al limite più vicino in fase ETL.']
 }
 
 Table faq_categories {
@@ -110,6 +117,7 @@ Ref: projects.client_id > clients.client_id
 Ref: projects.methodology_id > methodologies.methodology_id
 
 Ref: panelists.workspace_id > workspaces.workspace_id
+Ref: panelist_emails.panelist_id > panelists.panelist_id
 
 Ref: agents.workspace_id > workspaces.workspace_id
 

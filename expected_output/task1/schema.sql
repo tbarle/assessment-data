@@ -84,12 +84,27 @@ CREATE TABLE panelists (
 
     workspace_id VARCHAR(50) NOT NULL,
 
-    email VARCHAR(320),
     phone VARCHAR(50),
 
     CONSTRAINT fk_panelists_workspace
         FOREIGN KEY (workspace_id)
         REFERENCES workspaces(workspace_id)
+);
+
+-- ==========================================
+-- PANELIST EMAILS
+-- ==========================================
+
+CREATE TABLE panelist_emails (
+    id BIGSERIAL PRIMARY KEY,
+
+    panelist_id BIGINT NOT NULL,
+    email_hash VARCHAR(70) NOT NULL,
+    is_primary BOOLEAN NOT NULL DEFAULT FALSE,
+
+    CONSTRAINT fk_panelist_emails_panelist
+        FOREIGN KEY (panelist_id)
+        REFERENCES panelists(panelist_id)
 );
 
 -- ==========================================
@@ -229,6 +244,9 @@ ON interactions(workspace_id);
 
 CREATE INDEX idx_panelists_workspace
 ON panelists(workspace_id);
+
+CREATE INDEX idx_panelist_emails_panelist
+ON panelist_emails(panelist_id);
 
 CREATE INDEX idx_faq_category
 ON faq(category_id);
