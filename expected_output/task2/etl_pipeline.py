@@ -669,6 +669,28 @@ def write_csv(records: list[dict], p: Path) -> None:
 
 # ─── Quality Report ───────────────────────────────────────────────────────────────
 
+_METRIC_DESCRIPTIONS: dict[str, str] = {
+    "faq.categories":                          "Categorie distinte trovate nel file FAQ",
+    "faq.parsed":                              "Coppie domanda/risposta estratte dal file FAQ",
+    "interactions.cleaned":                    "Record rimasti dopo la pulizia completa",
+    "interactions.format_normalised":          "Date convertite a ISO 8601 da formati non standard",
+    "interactions.multiple_emails_for_panelist": "Panelisti con più di un'email registrata",
+    "interactions.out_of_range":               "Valori numerici fuori dal range valido (es. score > 5)",
+    "interactions.raw":                        "Record presenti nel file sorgente prima di qualsiasi pulizia",
+    "interactions.type_coerced":               "Campi con tipo errato convertiti al tipo corretto",
+    "interactions.unique_agents":              "Agenti distinti presenti nei dati puliti",
+    "interactions.unique_panelists":           "Panelisti distinti presenti nei dati puliti",
+    "projects.cleaned":                        "Record rimasti dopo la deduplicazione",
+    "projects.duplicate":                      "project_id con più di una riga (duplicati)",
+    "projects.end_before_start":               "Progetti con end_date precedente a start_date",
+    "projects.missing":                        "Campi obbligatori mancanti e non recuperabili",
+    "projects.negative_value":                 "Valori negativi su campi che non possono esserlo (es. budget)",
+    "projects.raw":                            "Record nel CSV sorgente prima della pulizia",
+    "projects.unique_clients":                 "Clienti distinti nei progetti puliti",
+    "projects.unique_methodologies":           "Metodologie di ricerca distinte dopo normalizzazione",
+}
+
+
 def write_report(log: QualityLog, path: Path) -> None:
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     md: list[str] = [
@@ -680,9 +702,12 @@ def write_report(log: QualityLog, path: Path) -> None:
         "",
         "## Statistiche di Riepilogo",
         "",
-        "| Metrica | Valore |",
-        "|---------|--------|",
-        *[f"| `{k}` | {v} |" for k, v in sorted(log.counters.items())],
+        "| Metrica | Valore | Descrizione |",
+        "|---------|--------|-------------|",
+        *[
+            f"| `{k}` | {v} | {_METRIC_DESCRIPTIONS.get(k, '')} |"
+            for k, v in sorted(log.counters.items())
+        ],
         "",
         "---",
         "",

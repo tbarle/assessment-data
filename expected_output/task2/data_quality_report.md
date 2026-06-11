@@ -6,26 +6,26 @@ _Generato il: 2026-06-09 23:15:52_
 
 ## Statistiche di Riepilogo
 
-| Metrica | Valore |
-|---------|--------|
-| `faq.categories` | 11 |
-| `faq.parsed` | 24 |
-| `interactions.cleaned` | 37 |
-| `interactions.format_normalised` | 36 |
-| `interactions.multiple_emails_for_panelist` | 2 |
-| `interactions.out_of_range` | 1 |
-| `interactions.raw` | 37 |
-| `interactions.type_coerced` | 23 |
-| `interactions.unique_agents` | 3 |
-| `interactions.unique_panelists` | 19 |
-| `projects.cleaned` | 50 |
-| `projects.duplicate` | 3 |
-| `projects.end_before_start` | 2 |
-| `projects.missing` | 1 |
-| `projects.negative_value` | 1 |
-| `projects.raw` | 54 |
-| `projects.unique_clients` | 50 |
-| `projects.unique_methodologies` | 7 |
+| Metrica | Valore | Descrizione |
+|---------|--------|-------------|
+| `faq.categories` | 11 | Categorie distinte trovate nel file FAQ |
+| `faq.parsed` | 24 | Coppie domanda/risposta estratte dal file FAQ |
+| `interactions.cleaned` | 37 | Record rimasti dopo la pulizia completa |
+| `interactions.format_normalised` | 36 | Date convertite a ISO 8601 da formati non standard |
+| `interactions.multiple_emails_for_panelist` | 2 | Panelisti con più di un'email registrata |
+| `interactions.out_of_range` | 1 | Valori numerici fuori dal range valido (es. score > 5) |
+| `interactions.raw` | 37 | Record presenti nel file sorgente prima di qualsiasi pulizia |
+| `interactions.type_coerced` | 23 | Campi con tipo errato convertiti al tipo corretto |
+| `interactions.unique_agents` | 3 | Agenti distinti presenti nei dati puliti |
+| `interactions.unique_panelists` | 19 | Panelisti distinti presenti nei dati puliti |
+| `projects.cleaned` | 50 | Record rimasti dopo la deduplicazione |
+| `projects.duplicate` | 3 | project_id con più di una riga (duplicati) |
+| `projects.end_before_start` | 2 | Progetti con end_date precedente a start_date |
+| `projects.missing` | 1 | Campi obbligatori mancanti e non recuperabili |
+| `projects.negative_value` | 1 | Valori negativi su campi che non possono esserlo (es. budget) |
+| `projects.raw` | 54 | Record nel CSV sorgente prima della pulizia |
+| `projects.unique_clients` | 50 | Clienti distinti nei progetti puliti |
+| `projects.unique_methodologies` | 7 | Metodologie di ricerca distinte dopo normalizzazione |
 
 ---
 
